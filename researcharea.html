@@ -4,11 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Projects</title>
+    <title>Our Faculty Member</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.18/css/dataTables.bootstrap.min.css">
     <!-- favicon
 		============================================ -->
     <link rel="shortcut icon" type="image/x-icon" href="html/educat-preview/educat/img/favicon.ico">
@@ -92,7 +90,7 @@
 
 <body>
     <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an outdated browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     <!--Main Wrapper Start-->
     <div class="as-mainwrapper">
@@ -100,11 +98,11 @@
         <div class="bg-white">
             <!--Header Area Start-->
             <header>
-            
+
                 <div class="header-logo-menu sticker">
-            
+
                     <div class="container">
-            
+
                         <div class="row">
                             <div class="col-md-3 col-sm-12">
                                 <div class="logo">
@@ -139,10 +137,10 @@
                                                         <li>
                                                             <a href="aboutjmi.html">About Jamia</a>
                                                         </li>
-            
-            
-            
-            
+
+
+
+
                                                     </ul>
                                                 </li>
                                                 <li>
@@ -157,7 +155,7 @@
                                                         <li>
                                                             <a href="#">Syllabus</a>
                                                         </li>
-            
+
                                                     </ul>
                                                 </li>
                                                 <li>
@@ -189,13 +187,13 @@
                                                         <li>
                                                             <a href="publication.html">Publication</a>
                                                         </li>
-            
+
                                                     </ul>
                                                 </li>
                                                 <li>
                                                     <a href="event.html">Events</a>
                                                 </li>
-            
+
                                                 <li>
                                                     <a href="">Placement</a>
                                                 </li>
@@ -222,7 +220,7 @@
                                     </div>
                                     <!--End of Search Form-->
                                 </div>
-            
+
                             </div>
                         </div>
                     </div>
@@ -257,10 +255,10 @@
                                                     <li>
                                                         <a href="aboutjmi.html">About Jamia</a>
                                                     </li>
-            
-            
-            
-            
+
+
+
+
                                                 </ul>
                                             </li>
                                             <li>
@@ -275,7 +273,7 @@
                                                     <li>
                                                         <a href="#">Syllabus</a>
                                                     </li>
-            
+
                                                 </ul>
                                             </li>
                                             <li>
@@ -307,7 +305,7 @@
                                                     <li>
                                                         <a href="publication.html">Publication</a>
                                                     </li>
-            
+
                                                 </ul>
                                             </li>
                                             <li>
@@ -330,453 +328,236 @@
             </header>
             <!--End of Header Area-->
             <!--Slider Area Start-->
-            <div class="breadcrumb-banner-area people-breadcrumb">
+            <div class="breadcrumb-banner-area people1-breadcrumb">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h1 class="text-center">PEOPLE</h1>
+                            <h1 class="text-center">RESEARCH AREA</h1>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="event-details-area section-padding">
+            <!--End of Breadcrumb Banner Area-->
+            <script>
+                function myFunction(contentId) {
+                    var arr = document.getElementsByClassName("sem");
+                    for (var i = 0; i < arr.length; i++) {
+                        arr[i].style.display = "none";
+                    }
+                    var x = document.getElementById(contentId);
+                    console.log(contentId);
+
+                    contentId.style.display = "block";
+                }
+
+            </script>
+            <style>
+                table tr {
+                    cursor: pointer;
+                }
+
+                table thead tr {
+                    text-align: center;
+                }
+
+                .name {
+                    font-weight: 1000;
+                }
+
+                .header {
+                    text-align: center;
+                    font-weight: 1000;
+                    font-size: 20px;
+                    color: #046b09;
+                }
+            </style>
+            <!--Course Details Area Start-->
+            <div class="course-details-area section-padding">
                 <div class="container">
-                    <div class="row">
-                        <script>
-                            function myFunction(contentId) {
-                                var arr = document.getElementsByClassName("sem");
-                                for (var i = 0; i < arr.length; i++) {
-                                    arr[i].style.display = "none";
-                                }
-                                var x = document.getElementById(contentId);
-                                console.log(contentId);
-
-                                contentId.style.display = "block";
-                            }
-
-                            function myFunction1(contentId) {
-                                var x = document.getElementById(contentId);
-                                if (contentId.style.display == "none") {
-                                    contentId.style.display = "block";
-                                }
-                                else {
-                                    contentId.style.display = "none";
-                                }
-                            }
-                        </script>
-                        <div class="col-md-12">
-                            <style>
-                                td {
-                                    text-align: center;
-                                }
-
-                                th {
-                                    text-align: center;
-                                }
-
-                                table {
-                                    font-size: .85em;
-                                }
-
-                                .header {
-                                    color: #046b09;
-                                    font-weight: bold;
-                                    text-align: center;
-                                    font-size: 1.5em;
-                                }
-                            </style>
-
-                            <div class="col-md-10 event-details-content sem" id="pp1" style="">
-                                <div class="col-md-12" style="background-color:#046b09; color:white; padding:20px; text-align:center;">
-                                    <h2>Batch 2016 - 2017 Major Projects</h2>
-                                </div>
-                                <div class="single-event-item">
-                            
-                                    <table class="table">
-                                        <tr>
-                                            <th>
-                                                <b>Roll Nos.</b>
-                                            </th>
-                                            <th>
-                                                <b>Names</b>
-                                            </th>
-                                            <th>
-                                                <b>Title</b>
-                                            </th>
-                                            <th>
-                                                <b>Supervisor</b>
-                                            </th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0073</br>13BSS0025</th>
-                                            <th>Sonal Dua
-                                                <br>Gaurav Sharma</th>
-                                            <th>Smart infrastructure control and automation systems (SICAS)</th>
-                                            <th>Mr. Danish R. Rizvi</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0066</br>13BSS0013</th>
-                                            <th>Shikha Kaushik
-                                                <br>Anamta Khan</th>
-                                            <th>Human face detection, tracking and recognition</th>
-                                            <th>Mr. Danish R. Rizvi</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0023</br>13BSS0069</th>
-                                            <th>Fatima Munawwar
-                                                <br>Umer Ahsan</th>
-                                            <th>Image caption generation using deep neural network</th>
-                                            <th>Mr. Sarfaraz Masood</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0072</br>13BSS0062</br>13BSS0071</th>
-                                            <th>Osama Khan
-                                                <br>Satyam Sinha</br>Wajahat Ansari</th>
-                                            <th>Autonomous car using evolving neural network</th>
-                                            <th>Mr. Faiyaz Ahmad</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0040</br>13BSS0048</br>13BSS0020</th>
-                                            <th>Mohammad Asif
-                                                <br>Mohd. Asad</br>Basit Ali</th>
-                                            <th>Twitter sentiment classification using distant supervision</th>
-                                            <th>Mr. Danish R. Rizvi</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0055</br>13BSS0061</th>
-                                            <th>Rabia Abdul Jabbar
-                                                <br>Saniya Suhail</th>
-                                            <th>Edge detection using krawtchouk polynomials</th>
-                                            <th>Dr. Mohd. Amjad</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0027</br>13BSS0007</th>
-                                            <th>Harish Chandra Thuwal
-                                                <br>Adhyan Srivastava</th>
-                                            <th>Real time sign language gesture recognition from video sequence</th>
-                                            <th>Mr. Sarfaraz Masood</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0051</br>13BSS0010</th>
-                                            <th>Mohd. Shoeb
-                                                <br>Ajay Goyal</th>
-                                            <th>Sentiment analysis on restaurant reviews using natural language processing</th>
-                                            <th>Mr. Mumtaz Ahmad</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0057</br>13BSS0042</th>
-                                            <th>Saba Khan
-                                                <br>M. Munirud Doja</th>
-                                            <th>Analysis of road accidents using data mining</th>
-                                            <th>Prof. Tanvir Ahmad</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0001</br>13BSS0046</th>
-                                            <th>Akash Gaur
-                                                <br>Mohd. Yaseen</th>
-                                            <th>Voice based navigation system for blind people using ultrasonic sensor</th>
-                                            <th>Mr. Hannan Mansoor</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0033</br>13BSS0067</th>
-                                            <th>Mayank Shekhar
-                                                <br>Sumit Kumar Jha</th>
-                                            <th>An optical character recognition based android application for business card scanner
-                                            </th>
-                                            <th>Mr. Musheer Ahmad</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0058</br>13BSS0059</th>
-                                            <th>Sahil
-                                                <br>Salamuddin</th>
-                                            <th>Face expression recognition</th>
-                                            <th>Mr. Faiyaz Ahmad</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0038</br>13BSS0026</th>
-                                            <th>Minnat Khan
-                                                <br>Gulnawaz Akram</th>
-                                            <th>Automated text categorization system using open directory project</th>
-                                            <th>Mr. Hannan Mansoor
-                                                <th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0032</br>13BSS0008</br>12CSS06</th>
-                                            <th>Maseera Ali
-                                                <br>Aditi Mishra</br>Ahmad Zia Zafari</th>
-                                            <th>Cryptographic hash function design using generalized chaotic map</th>
-                                            <th>Mr. Musheer Ahmad</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0030</br>13BSS0039</th>
-                                            <th>Jawd Ahmad
-                                                <br>Mohd. Asad Hussain</th>
-                                            <th>Finding interesting pattern from uncertain data</th>
-                                            <th>Dr. Bashir Alam</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0003</br>13BSS0004</th>
-                                            <th>Abdul Rauf
-                                                <br>Abdullah Hasan</th>
-                                            <th>Implementation of various AI techniques to solve pacman game</th>
-                                            <th>Mr. Shamim Ahmad</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0035</br>13BSS0036</br>13BSS0053</th>
-                                            <th>Md. Shariq Shahab
-                                                <br>Md. Tabish R. Khan</br>Nasruddin Ali</th>
-                                            <th>Detect disease from chest X-ray and annotate its context</th>
-                                            <th>Dr. Bashir Alam</th>
-                                        </tr>
-                                        <tr>
-                                            <th>11CSS03</th>
-                                            <th>Abdullah Wasim</th>
-                                            <th>Spam text detection</th>
-                                            <th>Mr. Jawahar Lal</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0012</br>13BSS0050</th>
-                                            <th>Amit Jindal
-                                                <br>Mohd. Faizan</th>
-                                            <th>Detection of acute leukemia using white blood cells segmentation based on blood samples
-                                            </th>
-                                            <th>Dr. Mohd. Amjad</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0043</br>13BSS0049</th>
-                                            <th>Mohd. Saddam Hussain
-                                                <br>Mohd. Asrar Ahmad</th>
-                                            <th>A new approach to hide text in image using steganography</th>
-                                            <th>Mr. Shamim Ahmad</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0041</br>13BSS0044</br>13BSS0045</th>
-                                            <th>Asjad Khan
-                                                <br>Mohd. Shahrukh</br>Mohd. Yusuf Ali</th>
-                                            <th>Emotion recognition from speech using support vector machine</th>
-                                            <th>Mr. M. Zeeshan Ansari</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0006</br>13BSS0065</th>
-                                            <th>Adeela Izhar
-                                                <br>Shazli Khanam</th>
-                                            <th>A novel bacterial foraging technique for optimization of edge detection in images</th>
-                                            <th>Mr. Shahzad Alam</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0017</br>12CSS17</th>
-                                            <th>Atul Kunwar
-                                                <br>Azhan Alam</th>
-                                            <th>Aging face recognition</th>
-                                            <th>Mr. M. Zeeshan Ansari</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0028</br>13BSS0068</th>
-                                            <th>Himanshu Sundriyal
-                                                <br>Tarun Luthra</th>
-                                            <th>Game theoretic model for soul network analysis</th>
-                                            <th>Dr. Bashir Alam</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0034</br>13BSS0075</th>
-                                            <th>Md. Insan Ahsan
-                                                <br>Md. Mahtab Alam</th>
-                                            <th>Brain tumor detection algorithm using watershed and thresholding based segmentation</th>
-                                            <th>Mr. Mumtaz Ahmad</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0019</br>13BSS0018</br>13BSS0054</th>
-                                            <th>Ayush Jain
-                                                <br>Ayush Chauhan</br>Pulkit Gupta</th>
-                                            <th>AI lane detection and vehicle detecting using computer version</th>
-                                            <th>Dr. Mohd. Amjad</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0021</br>13BSS0022</br>13BSS0074</th>
-                                            <th>Darsh Gupta
-                                                <br>Deepak Sharma</br>Varun Bansal</th>
-                                            <th>Evaluating sentiment for user posted online reviews and opinions</th>
-                                            <th>Mr. Faiyaz Ahmad</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0005</br>13BSS0015</th>
-                                            <th>Abhinav Rai
-                                                <br>Ashhar Hasan</th>
-                                            <th>Deep learning based motor control unit</th>
-                                            <th>Mr. Sarfaraz Masood</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0011</br>13BSS0014</th>
-                                            <th>Amir Khan
-                                                <br>Anas Ahmad Qazi</th>
-                                            <th>Language identification of transliterated text using N-Gram</th>
-                                            <th>Mr. M. Zeeshan Ansari</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0064</br>13BSS0029</th>
-                                            <th>Sharmin Khan
-                                                <br>Irum</th>
-                                            <th>Neighborhood topology to discover influential nodes in a complex network</th>
-                                            <th>Prof. M. N. Doja</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0009</br>13BSS0063</th>
-                                            <th>Ahmad Sarosh Waseem
-                                                <br>Shafqaut Bakhtiyar</th>
-                                            <th>Ant colony optimization based on image edge detection steganography</th>
-                                            <th>Mr. Shahzad Alam</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0002</br>13BSS0031</th>
-                                            <th>Akash Aggarwal
-                                                <br>Krishan Chopra</th>
-                                            <th>Air pollution forecasting system using statistical model</th>
-                                            <th>Mr. Mumtaz Ahmad</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0047</br>12CSS61</th>
-                                            <th>Mohd. Arshad
-                                                <br>Shamshad Alam</th>
-                                            <th>Secure student information system</th>
-                                            <th>Mr. Jawahar Lal</th>
-                                        </tr>
-                                        <tr>
-                                            <th>13BSS0052</br>13BSS0070</th>
-                                            <th>Mohit Singh
-                                                <br>Kharab Vaibhav Bindal</th>
-                                            <th>Network packet analyser</th>
-                                            <th>Mr. Jawahar Lal</th>
-                                        </tr>
-                                    </table>
-                                </div>
-                            
-                            </div>
-                            <div class="col-md-2">
-                                <div class="sidebar-widget">
-                                    <div class="single-sidebar-widget" style="padding-left:30px;">
-                                        <h4 class="title">Projects</h4>
-                                        <style>
-                                            .recent-text h3 a {
-                                                color: #046b09;
-                                                padding: 5px;
-                                                cursor: pointer;
-                                            }
-                            
-                                            .recent-text h5 a {
-                                                color: #667067;
-                                                margin: 5px;
-                                                cursor: pointer;
-                                            }
-                            
-                                            hr {
-                                                margin: 2px;
-                                                width: 100%;
-                                                color: #046b09;
-                                                height: 10px;
-                            
-                                                border: 0;
-                                                box-shadow: 0 10px 10px -10px #8c8b8b inset;
-                                            }
-                            
-                                            .recent-content-item {
-                                                margin-bottom: 2px;
-                                                padding-bottom: 0px;
-                                            }
-                                        </style>
-                                        <script>
-                                            function myFunction1(contentId) {
-                                                var arr = document.getElementsByClassName("sem1");
-                                                for (var i = 0; i < arr.length; i++) {
-                                                    arr[i].style.display = "none";
-                                                }
-                                                var x = document.getElementById(contentId);
-                                                console.log(contentId);
-
-                                                contentId.style.display = "block";
-                                            }
-
-                                            function myFunction(contentId) {
-                                                var arr = document.getElementsByClassName("sem");
-                                                for (var i = 0; i < arr.length; i++) {
-                                                    arr[i].style.display = "none";
-                                                }
-                                                var x = document.getElementById(contentId);
-                                                console.log(contentId);
-
-                                                contentId.style.display = "block";
-                                            }
-
-                                        </script>
-                                        <div class="recent-content">
-                                            <div class="recent-content-item">
-                                                <div class="recent-text">
-                                                    <h3>
-                                                        <a onclick="myFunction1(l2); myFunction(bs1)">2018 -19</a>
-                                                    </h3>
-                                                    <hr>
-                                                    <div style="padding-left:20px;" class="sem1" id="l2">
-                                                        <h5>
-                                                            <a onclick="myFunction(bs1)">Major</a>
-                                                        </h5>
-                                                        <hr>
-                                                        <h5>
-                                                            <a onclick="myFunction(bs2)">Minor</a>
-                                                        </h5>
-                                                        <hr>
-                                                        
-                                                    </div>
-                                                </div>
-                                            </div>
-                            
-                                            <div class="recent-content-item">
-                                                <div class="recent-text">
-                                                    <h3>
-                                                        <a onclick="myFunction1(l3); myFunction(ms1)">2017 - 18</a>
-                                                    </h3>
-                                                    <hr>
-                                                    <div style="padding-left:20px; display:none;" class="sem1" id="l3">
-                                                        <h5>
-                                                            <a onclick="myFunction(ms1)">Major</a>
-                                                        </h5>
-                                                        <hr>
-                                                        <h5>
-                                                            <a onclick="myFunction(ms2)">Minor</a>
-                                                        </h5>
-                                                        <hr>
-                            
-                                                    </div>
-                                                </div>
-                                            </div>
-                            
-                                            <div class="recent-content-item">
-                                                <div class="recent-text">
-                                                    <h3>
-                                                        <a onclick="myFunction1(l1); myFunction(bes1)">2016 - 17</a>
-                                                    </h3>
-                                                    <hr>
-                                                    <div style="padding-left:20px; display:none;" class="sem1" id="l1">
-                                                        <h5>
-                                                            <a onclick="myFunction(bes1)">Major</a>
-                                                        </h5>
-                                                        <hr>
-                                                        <h5>
-                                                            <a onclick="myFunction(bes2)">Minor</a>
-                                                        </h5>
-                                                        <hr>
-                                                        
-                                                    </div>
-                                                </div>
-                                            </div>
-                            
-                                        </div>
-                            
-                                    </div>
-                            
-                                </div>
-                            </div>
-
+                    <div class="col event-details-content sem" id="faculty">
+                        <div class="col-md-12" style="background-color:#046b09; color:white; padding:20px; text-align:center;">
+                            <h2>Research Area</h2>
                         </div>
+                        <div class="single-event-item">
+                            
+                            <table class="table">
+                                <thead>
+                                    <tr class="header">
+                                        <th>Research Area</th>
+                                        <th>Concerned Faculties</th>
+                                    </tr>
+                                </thead>
+                                <tr>
+                                    <th class="name">Text Mining,</th>
+                                    <th>Dr. Tanvir Ahmad, Mr. Mohd Zeeshan Ansari </th>
+                                
+                                
+                                
+                                </tr>
+                                <tr>
+                                    <th class="name">Graph Mining</th>
+                                    <th>Dr. Tanvir Ahmad</th>
+                                
+                                
+                                
+                                </tr>
+                                <tr>
+                                    <th class="name">Bigdata Analytics</th>
+                                    <th>Dr. Tanvir Ahmad</th>
+                                
+                                
+                                
+                                </tr>
+                                <tr>
+                                    <th class="name">Natural Language Processing</th>
+                                    <th>Dr. Tanvir Ahmad</th>
+                                
+                                
+                                </tr>
+                                <tr>
+                                    <th class="name">Info Security</th>
+                                    <th>Dr. Tanvir Ahmad</th>
+                                
+                                
+                                </tr>
 
+                                <tr>
+                                    <th class="name">Parallel Programming</th>
+                                    <th>Dr. Bashir Alam</th>
+                                
+                                
+                                </tr>
+                                <tr>
+                                    <th class="name">Cluster programming</th>
+                                    <th>Dr. Bashir Alam</th>
+                                
+                                
+                                </tr>
+                                <tr>
+                                    <th class="name">High Performance Computing</th>
+                                    <th>Dr. Bashir Alam</th>
+                                
+                                
+                                </tr>
+                                
+                                <tr>
+                                    <th class="name">Wireless Sensor Networks Security</th>
+                                    <th>Dr. Mohammad Amjad, Mr. Danish Raza Rizvi</th>
+                                
+                                
+                                </tr>
+
+                                <tr>
+                                    <th class="name">Secirity in Cloud Computing</th>
+                                    <th>Dr. Mohammad Amjad</th>
+
+
+                                </tr>
+                                <tr>
+                                    <th class="name">Information Extraction</th>
+                                    <th>Mr. Mohd Zeeshan Ansari</th>
+
+
+                                </tr>
+                                <tr>
+                                    <th class="name">Machine Learning</th>
+                                    <th>Mr. Mohd Zeeshan Ansari</th>
+
+
+                                </tr>
+
+                                <tr>
+                                    <th class="name">Software Engineering</th>
+                                    <th>Mr. Jawahar Lal </th>
+                            
+                            
+                            
+                                </tr>
+                                <tr>
+                                    <th class="name">Computer Networks</th>
+                                    
+                                    <th>Mr. Mumtaz Ahmad, Mr. Jawahar Lal </th>
+                            
+                            
+                            
+                                </tr>
+                                
+                                <tr>
+                                    <th class="name">Soft Computing</th>
+                                    <th>Mr. Mohd Zeeshan Ansari, Mr. Sarfaraz Masood </th>
+                            
+                            
+                            
+                                </tr>
+                                
+
+                                <tr>
+                                    <th class="name">Mobile Computing,</th>
+                                    <th>Dr. Mohammad Amjad, Mr. Danish Raza Rizvi</th>
+                                
+                                
+                                </tr>
+
+                                <tr>
+                                    <th class="name">ADBMS</th>
+                                    <th>Mr. Danish Raza Rizvi</th>
+                                
+                                
+                                </tr>
+                                <tr>
+                                    <th class="name">Artificial Neural Networks</th>
+                                    <th>Mr. Sarfaraz Masood</th>
+                                
+                                
+                                </tr>
+
+                                <tr>
+                                    <th class="name">Chaos-based Cryptography</th>
+                                    <th>Mr. Musheer Ahmad</th>
+                                
+                                
+                                </tr>
+                                <tr>
+                                    <th class="name">Multimedia Security</th>
+                                    <th>Mr. Musheer Ahmad</th>
+                                
+                                
+                                </tr>
+                                <tr>
+                                    <th class="name">Cryptanalysis</th>
+                                    <th>Mr. Musheer Ahmad</th>
+                                
+                                
+                                </tr>
+
+                                <tr>
+                                    <th class="name">Operating System</th>
+                                    <th>Mr. Faiyaz Ahmad, Mr. Jawahar Lal</th>
+                                
+                                
+                                </tr>
+                                <tr>
+                                    <th class="name">Image Progessing</th>
+                                    <th>Mr. Faiyaz Ahmad, Mr. Musheer Ahmad, Mr. Sarfaraz Masood</th>
+                                
+                                
+                                </tr>
+                                <tr>
+                                    <th class="name">Big Data Mining</th>
+                                    <th>Mr. Faiyaz Ahmad</th>
+                                
+                                
+                                </tr>
+                                <tr>
+                                    <th class="name">Artificial Intelligence</th>
+                                    <th>Mr. Mumtaz Ahmad, Mr. Jawahar Lal</th>
+                                
+                                
+                                </tr>
+                                
+                                
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -830,7 +611,7 @@
                         <div class="col-md-6 col-sm-4">
                             <div class="single-footer-widget">
                                 <h3>GET IN TOUCH</h3>
-                                <a href="tel:555-555-1212">
+                                <a>
                                     <i class="fa fa-phone"></i>+91(11)26981717, 26984617, 26984658, 26988044, 26987183</a>
                                 <span>
                                     <i class="fa fa-envelope"></i>computerengg@jmi.ac.in</span>
@@ -950,9 +731,6 @@
     <!-- main JS
 		============================================ -->
     <script src="html/educat-preview/educat/js/main.js"></script>
-    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
-    <script src="http://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
-    <script src="http://cdn.datatables.net/1.10.18/js/dataTables.bootstrap.min.js"></script>
 </body>
 
 </html>
