@@ -113,7 +113,7 @@ ul{
     font-family: 'montserratbold';
     src: url('html/educat-preview/educat/fonts/montserrat-bold-webfont.eot');
     src: url('html/educat-preview/educat/html/educat-preview/educat/fonts/montserrat-bold-webfont.eot') format('embedded-opentype'),
-         url('html/educat-preview/educat/html/educat-preview/educat/fonts/montserrat-bold-webfont.woff2') format('woff2'),
+         
          url('html/educat-preview/educat/fonts/montserrat-bold-webfont.woff') format('woff'),
          url('html/educat-preview/educat/fonts/montserrat-bold-webfont.ttf') format('truetype'),
          url('html/educat-preview/educat/fonts/montserrat-bold-webfont.svg') format('svg');
@@ -125,7 +125,7 @@ ul{
     font-family: 'montserratlight';
     src: url('html/educat-preview/educat/fonts/montserrat-light-webfont.eot');
     src: url('html/educat-preview/educat/html/educat-preview/educat/fonts/montserrat-light-webfont.eot') format('embedded-opentype'),
-         url('html/educat-preview/educat/html/educat-preview/educat/fonts/montserrat-light-webfont.woff2') format('woff2'),
+         
          url('html/educat-preview/educat/fonts/montserrat-light-webfont.woff') format('woff'),
          url('html/educat-preview/educat/fonts/montserrat-light-webfont.ttf') format('truetype'),
          url('html/educat-preview/educat/fonts/montserrat-light-webfont.svg') format('svg');
@@ -137,7 +137,7 @@ ul{
     font-family: 'montserratregular';
     src: url('html/educat-preview/educat/fonts/montserrat-regular-webfont.eot');
     src: url('html/educat-preview/educat/html/educat-preview/educat/fonts/montserrat-regular-webfont.eot') format('embedded-opentype'),
-         url('html/educat-preview/educat/html/educat-preview/educat/fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         
          url('html/educat-preview/educat/fonts/montserrat-regular-webfont.woff') format('woff'),
          url('html/educat-preview/educat/fonts/montserrat-regular-webfont.ttf') format('truetype'),
          url('html/educat-preview/educat/fonts/montserrat-regular-webfont.svg') format('svg');
@@ -149,7 +149,7 @@ ul{
     font-family: 'montserratsemi_bold';
     src: url('html/educat-preview/educat/fonts/montserrat-semibold-webfont.eot');
     src: url('html/educat-preview/educat/html/educat-preview/educat/fonts/montserrat-semibold-webfont.eot') format('embedded-opentype'),
-         url('html/educat-preview/educat/html/educat-preview/educat/fonts/montserrat-semibold-webfont.woff2') format('woff2'),
+        
          url('html/educat-preview/educat/fonts/montserrat-semibold-webfont.woff') format('woff'),
          url('html/educat-preview/educat/fonts/montserrat-semibold-webfont.ttf') format('truetype'),
          url('html/educat-preview/educat/fonts/montserrat-semibold-webfont.svg') format('svg');
@@ -166,6 +166,7 @@ body {
     background: #fff
 }
 .container { width: 1200px;}
+.container1 { width: 100%;}
 .container, .row, .col-md-12, .col-md-10, .col-md-9, .col-md-8, .col-md-6, .col-md-7, .col-md-6, .col-md-5, .col-md-4, .col-md-3, .col-md-2, .col-md-1, .as-mainwrapper {
     transition: all 0.3s ease 0s
 }
@@ -2024,6 +2025,22 @@ span.comment-time {padding-right: 3px; position: relative;}
     background: rgba(0, 0, 0, 0) url("img/people.jpg") no-repeat scroll 0 0;
     background-size: cover;
 }
+.phdscolar-breadcrumb {
+    background: rgba(0, 0, 0, 0) url("img/phd.jpg") no-repeat scroll 0 0;
+    background-size: cover;
+}
+.researcharea-breadcrumb {
+    background: rgba(0, 0, 0, 0) url("img/researcharea.jpg") no-repeat scroll 0 0;
+    background-size: cover;
+}
+.project-breadcrumb {
+    background: rgba(0, 0, 0, 0) url("img/project.jpg") no-repeat scroll 0 0;
+    background-size: cover;
+}
+.placement-breadcrumb {
+    background: rgba(0, 0, 0, 0) url("img/placement.jpg") no-repeat scroll 0 0;
+    background-size: cover;
+}
 
 .breadcrumb-banner-area.fixed-bg {background: url("img/3.jpg") no-repeat fixed top center / cover}
 .breadcrumb-banner-area.no-bg {background: rgba(0, 0, 0, 0) none repeat scroll 0 0;}
@@ -2646,7 +2663,7 @@ span.c-text {display: inline-block;}
   line-height: 0;
   left: -10px;
   position: relative;
-  top: 30px;
+  top: 20px;
   color: white;
   font-size: 3em;
 }
@@ -2657,7 +2674,7 @@ span.c-text {display: inline-block;}
   line-height: 0;
   left: 10px;
   position: relative;
-  top: 35px;
+  top: 20px;
   color: white;
   font-size: 3em;
 }
@@ -2679,7 +2696,8 @@ span.c-text {display: inline-block;}
 }
 
 .quotation1{
-  font-size: .95em;
+  font-size: 1.01em;
+  font-weight: 1000;
   margin: 0 auto;
   quotes: "\201C""\201D""\2018""\2019";
   padding: 10px 20px;
@@ -2693,7 +2711,7 @@ span.c-text {display: inline-block;}
   line-height: 0;
   left: -10px;
   position: relative;
-  top: 30px;
+  top: 20px;
   color: #046b09;
   font-size: 3em;
 }
@@ -2704,7 +2722,7 @@ span.c-text {display: inline-block;}
   line-height: 0;
   left: 10px;
   position: relative;
-  top: 35px;
+  top: 20px;
   color: #046b09;
   font-size: 3em;
 }
